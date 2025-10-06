@@ -1,0 +1,22 @@
+
+Proyecto de Ventas - CONSLUSION (texto plano)
+
+1) Lo aprendido durante el desarrollo del proyecto
+- Generación de datos pseudoaleatorios consistentes para pruebas (catálogos y transacciones).
+- Lectura, validación y procesamiento de archivos planos en Java (java.nio.file, BufferedReader/Writer).
+- Uso de colecciones y mapas para acumular métricas (ventas por vendedor, cantidad por producto).
+- Ordenamiento por criterios específicos y exportación a CSV con separador de punto y coma.
+- Manejo básico de excepciones y mensajes claros de éxito/error sin solicitar datos al usuario.
+
+2) Posibles aplicaciones profesionales
+- Simulación de escenarios de ventas para pruebas de QA y analítica.
+- Construcción de reportes gerenciales simples (ranking de vendedores y productos) a partir de archivos.
+- Integración con procesos ETL: extracción desde archivos, transformación de datos y carga a reportes.
+- Trazabilidad y auditoría básicas a través de archivos generados y reproducibles (semilla fija).
+
+3) Dificultades presentadas
+- Asegurar consistencia entre los archivos (IDs válidos, precios positivos, líneas bien formadas).
+- Definir un formato plano estable y fácil de validar, evitando ambigüedades.
+- Manejar la diversidad de archivos de ventas por vendedor (ventas_cc.txt, ventas_cc_n.txt) y consolidarlos.
+- Decidir qué imprimir en los reportes para cumplir literalmente con la guía (p. ej., Nombre;Total y Nombre;Precio).
+- Mantener el código claro y documentado con Javadoc, respetando la restricción de no pedir datos al usuario.
